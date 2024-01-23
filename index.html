@@ -38,6 +38,30 @@
       background-image: url(./Images/4.png);
       background-size: cover;
     }  
+    .carousel-item{
+        background-image: url(./1.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .human{
+        background-image: url(./hocky2.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .manov{
+        background-image: url(./hockey.jpeg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .hellow{
+        background-image: url(./images.jpeg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
   
 </style>
 
@@ -81,7 +105,64 @@
               </div>
         </nav>
         <!-- ---Banner--setion-header -->
+         
+<div class=" max-w-screen-lg mx-auto py-2">
+  <div class="carousel h-[400px] w-full">
+    <div id="slide1" class="carousel-item relative w-full">
+    <div class="parent absolute -right-96 bottom-5">
+      <div class=" flex flex-col justify-center py-3 px-4 gap-3 items-center bg-black h-[130px] w-[50%] rounded-xl ">
+        <h1 class="text-2xl text-[#fff]">Meet all the heroes from the field</h1>
+        <p class="text-[#fff]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+    
+      </div>
+    </div>
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide4" class="btn btn-circle">❮</a> 
+        <a href="#slide2" class="btn btn-circle">❯</a>
+      </div>
+    </div> 
+    <div id="slide2" class="carousel-item human relative w-full">
+      <div class="parent absolute -right-96 bottom-5">
+        <div class=" flex flex-col justify-center py-3 px-4 gap-3 items-center bg-black h-[130px] w-[50%] rounded-xl ">
+          <h1 class="text-2xl text-[#fff]">Meet all the heroes from the field</h1>
+          <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
       
+        </div>
+      </div>
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide1" class="btn btn-circle">❮</a> 
+        <a href="#slide3" class="btn btn-circle">❯</a>
+      </div>
+    </div> 
+    <div id="slide3" class="carousel-item manov relative w-full">
+      <div class="parent absolute -right-96 bottom-5">
+        <div class=" flex flex-col justify-center py-3 px-4 gap-3 items-center bg-black h-[130px] w-[50%] rounded-xl ">
+          <h1 class="text-2xl text-[#fff]">Meet all the heroes from the field</h1>
+          <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      
+        </div>
+      </div>
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide2" class="btn btn-circle">❮</a> 
+        <a href="#slide4" class="btn btn-circle">❯</a>
+      </div>
+    </div> 
+    <div id="slide4" class="carousel-item hellow relative w-full">
+      <div class="parent absolute -right-96 bottom-5">
+        <div class=" flex flex-col justify-center py-3 px-4 gap-3 items-center bg-black h-[130px] w-[50%] rounded-xl ">
+          <h1 class="text-2xl text-[#fff]">Meet all the heroes from the field</h1>
+          <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      
+        </div>
+      </div>
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide3" class="btn btn-circle">❮</a> 
+        <a href="#slide1" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+  </div>
+</div>
+        <!-- banner-end -->
         <hr class=" border-[2px] hidden lg:visible text-[black] border-dotted"">
      </header>
 
@@ -97,27 +178,27 @@
         <hr class=" w-[85%] hidden lg:visible border-[2px] text-[black] border-dotted"">
         <!-- -------------------------- -->
         <!-- --section-1-card--- -->
-        <div class="card-parent w-[95%] mx-auto pl-5 lg:w-[100%] lg:py-7   lg:flex justify-between items-center lg:gap-4 ">
+        <div class="card-parent w-[95%] mx-auto lg:w-[100%] lg:py-7   lg:flex justify-between items-center lg:gap-4 ">
           <!-- ---Card-1-- -->
-          <div class="card-1 mb-5  w-[300px] h-[250px] shadow flex flex-col justify-center items-center px-3 py-3">
+          <div class="card-1 mb-5  w-[300px] mx-auto h-[250px] shadow flex flex-col justify-center items-center px-3 py-3">
             <div class="radial-progress" style="--value:80;" role="progressbar">87%</div>
             <h1 class="text-2xl font-semibold py-2">Prayer Facility</h1>
             <p class="text-[10px] text-[#777] py-2">Amet consectetur. Condimentum dignissim adipiscing .</p>
           </div>
           <!-- ---Card-2-- -->
-          <div class="card-2 mb-5 w-[300px] h-[250px]  shadow flex flex-col justify-center items-center px-3 py-3">
+          <div class="card-2 mb-5 w-[300px] mx-auto h-[250px]  shadow flex flex-col justify-center items-center px-3 py-3">
             <div class="radial-progress" style="--value:80;" role="progressbar">90%</div>
             <h1 class="text-2xl font-semibold py-2 text-center">Experienced Coach</h1>
             <p class="text-[10px] text-[#777] py-2">Amet consectetur. Condimentum dignissim adipiscing .</p>
           </div>
           <!-- ---Card-3-- -->
-          <div class="card-3 mb-5 w-[300px] h-[250px] shadow flex flex-col justify-center items-center px-3 py-3">
+          <div class="card-3 mb-5 w-[300px] mx-auto h-[250px] shadow flex flex-col justify-center items-center px-3 py-3">
             <div class="radial-progress" style="--value:70;" role="progressbar">70%</div>
             <h1 class="text-2xl font-semibold py-2">Senior Player</h1>
             <p class="text-[10px] text-[#777] py-2">Amet consectetur. Condimentum dignissim adipiscing .</p>
           </div>
           <!-- ---Card-1-- -->
-          <div class="card-1 mb-5 w-[300px] h-[250px] shadow flex flex-col justify-center items-center px-3 py-3">
+          <div class="card-1 mb-5 w-[300px] mx-auto h-[250px] shadow flex flex-col justify-center items-center px-3 py-3">
             <div class="radial-progress" style="--value:100;" role="progressbar">100%</div>
             <h1 class="text-2xl font-semibold py-2">Training Ground</h1>
             <p class="text-[10px] text-[#777] py-2">Amet consectetur. Condimentum dignissim adipiscing .</p>
@@ -135,9 +216,9 @@
         <hr class=" border-[2px] hidden lg:visible text-[black] border-dotted">
 
         <!-- section-2--Card-1 -->
-        <div class="card-1-parent pl-4 lg:pr-4   lg:flex justify-between items-center lg:py-8 gap-4">
+        <div class="card-1-parent    lg:flex justify-between items-center lg:py-8 gap-4">
           <!-- Card-1 -->
-          <div class="card-1 h-[320px] w-[90%] lg:mt-2 lg:w-[100%] rounded-xl sports ">
+          <div class="card-1 h-[320px] w-[90%] mx-auto lg:mt-2 lg:w-[100%] rounded-xl sports ">
            <div class="content flex flex-col justify-start w-[70%] pl-7 pt-20 items-start">
             <h1 class="text-2xl text-[#fff] font-semibold ">Junior Program</h1>
             <p class="text-[12px] text-[#fff] py-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
@@ -146,7 +227,7 @@
            </div>
           </div>
           <!-- Card-2 -->
-          <div class="card-2 h-[320px] w-[90%] mt-2  lg:w-full  rounded-xl sports-2 ">
+          <div class="card-2 h-[320px] w-[90%] mx-auto mt-2  lg:w-full  rounded-xl sports-2 ">
            <div class="content flex flex-col justify-start w-[70%] pl-7 pt-20 items-start">
             <h1 class="text-2xl text-[#fff] font-semibold ">Junior Program</h1>
             <p class="text-[12px] text-[#fff] py-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
@@ -156,7 +237,7 @@
           </div>
         </div>
         <!-- ---section-2-Card-alone -->
-        <div class="card-21 mb-5 -mt-3 mt-5 lg:-mt-4 h-[400px] sm:pl-4 rounded-2xl  w-[87%] lg:w-[98%] mx-auto sports-3 ">
+        <div class="card-21 mb-5 -mt-3 mt-5 lg:-mt-4 h-[400px] sm:pl-4 rounded-2xl  w-[90%] bg-current lg:w-[100%] mx-auto  sports-3 ">
           <div class="content flex flex-col justify-start w-[70%] pl-7 pt-40 lg:pt-56 items-start">
             <h1 class="text-2xl text-[#fff] font-semibold ">Junior Program</h1>
             <p class="text-[12px] text-[#fff] py-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
@@ -465,7 +546,7 @@
           <div class="grid gap-6 mb-6 w-[60%] md:grid-cols-2">
             <div class="lg:mr-10">
                 <label for="first_name" class="block mb-2 text-sm font-bold text-gray-900 dark:text-black">First name</label>
-                <input type="text" id="first_name" class="bg-gray-50   py-3 pl-6 text-[10px]  lg:w-[250px] rounded" placeholder="Enter Your Full Name" required>
+                <input type="text" id="first_name" class="bg-gray-50   py-3 pl-6 text-[10px]  w-[250px] rounded" placeholder="Enter Your Full Name" required>
             </div>
             <div class="lg:ml-20">
                 <label for="last_name" class="block mb-2 text-sm font-bold text-gray-900 dark:text-Black">Your Email</label>
